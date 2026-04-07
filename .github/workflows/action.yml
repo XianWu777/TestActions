@@ -2,7 +2,7 @@
 
 name: Hello World                  # Workflow 的名称，显示在 GitHub Actions 页面上
 
-on: push                           # 触发条件：任意分支有代码推送时触发
+on: workflow_dispatch              # 触发条件：任意分支有代码推送时触发
 
 jobs:                              # 定义所有 Job
   say-hello:                       # Job 的 ID（自定义名称，同一 Workflow 内唯一）
