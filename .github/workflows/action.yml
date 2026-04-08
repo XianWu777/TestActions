@@ -17,9 +17,11 @@ jobs:                              # 定义所有 Job
           ls
           pwd
           cd ..
+          echo "----- change folder -----"
           ls
           pwd
           cd ..
+          echo "----- change folder -----"
           ls
           pwd
       - name: 跑shell script
