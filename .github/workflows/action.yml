@@ -16,7 +16,10 @@ jobs:                              # 定义所有 Job
         run: |
           ls
           pwd
-          cd ".github/workflows"
+          cd ..
+          ls
+          pwd
+          cd ..
           ls
           pwd
       - name: 跑shell script
