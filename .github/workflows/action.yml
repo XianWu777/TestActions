@@ -13,4 +13,4 @@ jobs:                              # 定义所有 Job
       - name: 打印消息               # Step 的名称（可选，用于在日志中标识该步骤）
         run: echo "Hello, GitHub Actions！"   # run：直接执行 Shell 命令
       - name: 跑shell script
-        run: /.github/workflows/Airwaves超涼薄荷.sh
+        run: bash "TestActions/.github/workflows/Airwaves超涼薄荷.sh"
