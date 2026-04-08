@@ -14,6 +14,7 @@ jobs:                              # 定义所有 Job
         run: echo "Hello, GitHub Actions！"   # run：直接执行 Shell 命令
       - name:
         run: |
+          ls
           pwd
           ls
           cd ..
