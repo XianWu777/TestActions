@@ -16,7 +16,7 @@ jobs:                              # 定义所有 Job
         run: echo "Hello, GitHub Actions！"   # run：直接执行 Shell 命令
       - name:
         run: |
-          ls
+          ls -a
           pwd
           cd ..
           echo "----- change folder -----"
@@ -27,4 +27,4 @@ jobs:                              # 定义所有 Job
           ls
           pwd
       - name: 跑shell script
-        run: bash ".github/workflows/Airwaves超涼薄荷.sh"
+        run: bash "ci/Airwaves超涼薄荷.sh"
