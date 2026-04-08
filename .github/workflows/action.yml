@@ -16,7 +16,7 @@ jobs:                              # 定义所有 Job
         run: |
           ls
           pwd
-          cd TestActions/.github/workflows
+          cd ".github/workflows"
           ls
           pwd
       - name: 跑shell script
