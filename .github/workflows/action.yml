@@ -16,5 +16,9 @@ jobs:                              # 定义所有 Job
         run: pwd
       - name: 印出目前資料夾檔案
         run: ls
+      - name: 返回上一頁
+        run: cd ..
+      - name: 印出目前資料夾檔案
+        run: ls
       - name: 跑shell script
         run: bash ".github/workflows/Airwaves超涼薄荷.sh"
